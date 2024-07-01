@@ -1,5 +1,5 @@
-import { formatarMoedas } from "../utils/formaters";
-import { formatarData } from "../utils/formaters";
+import { formatarMoedas } from "../utils/formaters.js";
+import { formatarData } from "../utils/formaters.js";
 const elementoSaldo = document.querySelector(".saldo-valor .valor");
 const elementoData = document.querySelector('time');
 let saldo = 3000;

@@ -1,6 +1,6 @@
-import { TipoTransacao } from "../types/TipoTransacao";
-import { Transacao } from "../types/Transacao";
-import { atualizarSaldo, getSaldo } from "./saldo-component";
+import { TipoTransacao } from "../types/TipoTransacao.js";
+import { Transacao } from "../types/Transacao.js";
+import { atualizarSaldo, getSaldo } from "./saldo-component.js";
 
 
 const elementoFormulario = document.querySelector(".block-nova-transacao form") as HTMLFormElement;

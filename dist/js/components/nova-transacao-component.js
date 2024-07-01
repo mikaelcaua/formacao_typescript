@@ -1,5 +1,5 @@
-import { TipoTransacao } from "../types/TipoTransacao";
-import { atualizarSaldo, getSaldo } from "./saldo-component";
+import { TipoTransacao } from "../types/TipoTransacao.js";
+import { atualizarSaldo, getSaldo } from "./saldo-component.js";
 const elementoFormulario = document.querySelector(".block-nova-transacao form");
 elementoFormulario.addEventListener("submit", function (event) {
     event.preventDefault();
